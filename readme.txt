@@ -1,8 +1,4 @@
-styles-twentyfourteen
-=====================
-
-This plugin adds support for the Twenty Fourteen theme to the Styles plugin.
-
+=== Styles: TwentyFourteen ===
 Contributors: Zulfikar Nore
 Plugin URI: http://wpdefault.com/styles-twentyfourteen-plugin/
 Author URI: http://www.wpstrapcode.com
