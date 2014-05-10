@@ -39,3 +39,17 @@ Styles Class: Styles_Child_Theme
 if ( !class_exists( 'Styles_Child_Notices' ) ) {
     include dirname( __FILE__ ) . '/classes/styles-child-notices/styles-child-notices.php';
 }
+
+/**
+ * Cause the "Featured Content" group in customize.json to append to TwentyFourteen's default group
+ *
+ * @param string $id Sanatized group ID
+ * @param  string $group Original group name
+ */
+function st2014_add_to_featured_content_group( $id, $group ) {
+	if ( 'Featured Content' == $group ) {
+		$id = 'featured_content';
+	}
+	return $id;
+}
+add_filter( 'styles_get_group_id', 'st2014_add_to_featured_content_group', 10, 2 );
