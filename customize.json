@@ -11,13 +11,13 @@
 		{ "selector": ".featured-content .entry-meta a", "type": "color", "label": "Meta" },
 		{ "selector": ".featured-content .entry-meta a:hover", "type": "color", "label": "Meta", "important": true },
 		/* Grid */
-		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid — Border", "important": true },
+		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid: Border", "important": true },
 		/* Slider */
-		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Paging" },
+		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Slider: Paging" },
 		{ "selector": ".slider-control-paging .slider-active:before,.slider-control-paging .slider-active:hover:before", "type": "background-color", "label": "Paging Link" },
 		{ "selector": ".slider-control-paging a:before", "type": "background-color", "label": "Paging Before Link" },
 		{ "selector": ".slider-control-paging a:hover:before", "type": "background-color", "label": "Paging Before Link" },
-		{ "selector": ".slider-direction-nav a", "type": "background-color", "label": "Slider Direction" },
+		{ "selector": ".slider-direction-nav a", "type": "background-color", "label": "Slider: Direction" },
 		{ "selector": ".slider-direction-nav a:hover", "type": "background-color", "label": "Direction Link" },
 		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction Before Link" },
 		{}
