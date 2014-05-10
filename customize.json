@@ -82,6 +82,53 @@
 		/* Sub item border -- Specific to the this theme */
 		{}
 	],
+	"Widgets — Primary": [
+		/* Background */		
+		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Area" },
+		/* Title */
+		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
+	"Widgets — Content": [
+		{ "selector": ".content-sidebar .widget .widget-title", "type": "border-top-color", "label": "Top Border" },
+		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
+		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
+		/* Title */
+		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
+	"Widgets — Footer": [
+		/* Title */
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Title" },
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Content" },
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".footer-sidebar .widget a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".footer-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
 	"Entry – Headings": [
 		/* Title */
 		{ "selector": ".entry-title, #page .entry-title a", "type": "text", "label": "Title" },
@@ -265,53 +312,6 @@
 		{ "selector": "#respond input#submit", "type": "text", "label": "Submit button" },
 		{ "selector": "#respond input#submit", "type": "color", "label": "Submit button" },
 		{ "selector": "#respond input#submit", "type": "background-color", "label": "Submit button" },
-		{}
-	],
-	"Widgets — Primary": [
-		/* Background */		
-		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Area" },
-		/* Title */
-		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Title" },
-		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Title" },
-		/* Content */
-		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Content" },
-		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Content" },
-		/* Link */
-		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
-		{}
-	],
-	"Widgets — Content": [
-		{ "selector": ".content-sidebar .widget .widget-title", "type": "border-top-color", "label": "Top Border" },
-		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
-		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
-		/* Title */
-		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Title" },
-		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Title" },
-		/* Content */
-		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Content" },
-		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Content" },
-		/* Link */
-		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
-		{}
-	],
-	"Widgets — Footer": [
-		/* Title */
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Title" },
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Title" },
-		/* Content */
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Content" },
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Content" },
-		/* Link */
-		{ "selector": ".footer-sidebar .widget a", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".footer-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
 	],
 	"Footer": [
