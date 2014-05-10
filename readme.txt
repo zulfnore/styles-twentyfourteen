@@ -4,8 +4,8 @@ Plugin URI: http://wpdefault.com/styles-twentyfourteen-plugin/
 Author URI: http://www.wpstrapcode.com
 Tags: css, stylesheet, appearance, customize, customizer, colors, color picker, background, fonts, Google fonts, user interface, twentyfourteen, twenty fourteen
 Requires at least: 3.4
-Tested up to: 3.9-alpha
-Stable tag: 1.0.2
+Tested up to: 3.9
+Stable tag: 1.0.3
 
 Be creative with colors and fonts. Styles changes everything.
 
@@ -56,16 +56,22 @@ This is an add-on plugin for Styles that adds support for this theme. Make sure 
 
 == Changelog ==
 
+= 1.0.3 =
+* Fix: Rename settings and groups to be consistent with other Styles TwentyXX plugins.
+* New: Move Featured Content settings to 2014 Featured Content group.
+
 = 1.0.2 =
-* Added options for Active menu styles
+* New: Options for Active menu styles
 
 = 1.0.1 =
-* Added more controls to Featured Content section - addressing the missed Title font and color options
-* Fine tuned the controls for better separation of elements targeted.
+* New: More controls to Featured Content section - addressing the missed Title font and color options
+* Fix: Fine tuned the controls for better separation of elements targeted.
 
 = 1.0.0 =
 * Initial public release.
 
 == Upgrade Notice ==
 
-* Fix: (Minor) Remove notices that would display in wp-admin if `WP_DEBUG` were enabled.
+= 1.0.3 =
+* Fix: Rename settings and groups to be consistent with other Styles TwentyXX plugins.
+* New: Move Featured Content settings to 2014 Featured Content group.

@@ -3,7 +3,7 @@
 Plugin Name:  Styles: TwentyFourteen
 Plugin URI:   http://wpdefault.com/styles-twentyfourteen-plugin/
 Description:  Adds fonts and colors Customize options to the <a href="http://wordpress.org/themes/twentyfourteen" target="_blank">Twenty Fourteen default theme</a> using the <a href="http://wordpress.org/plugins/styles/" target="_blank">Styles plugin</a>.
-Version:      1.0.2
+Version:      1.0.3
 Author:       Zulfikar Nore
 Author URI:   http://www.wpstrapcode.com
 
@@ -13,7 +13,7 @@ Styles Class: Styles_Child_Theme
 
 /**
  * Original plugin is Styles: TwentyThirteen
- * Copyright (c) 2013 Brainstorm Media. All rights reserved.
+ * Copyright (c) 2013 Paul Clark. All rights reserved.
  *
  * Styles: TwentyFourteen in the derivative format Copyright (c) 2013 WP Strap Code/ZGani AKA Zulfikar Nore
  *
