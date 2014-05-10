@@ -1,27 +1,28 @@
 {
-	"Featured Content Styles": [
+	"Featured Content": [
 		/* Background */
-		{ "selector": ".featured-content", "type": "background-color", "label": "Featured BG" },
+		{ "selector": ".featured-content", "type": "background-color", "label": "Area" },
 		{ "selector": ".featured-content .entry-header", "type": "background-color", "label": "Entry Header" },
-		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid Border", "important": true },
 		/* Featured Content */
-		{ "selector": ".featured-content .entry-title", "type": "text", "label": "Featured Title", "important": true },
-		{ "selector": ".featured-content .entry-title a", "type": "color", "label": "Featured Title", "important": true },
-		{ "selector": ".featured-content .entry-title a:hover", "type": "color", "label": "Featured Title", "important": true },
+		{ "selector": ".featured-content .entry-title", "type": "text", "label": "Title", "important": true },
+		{ "selector": ".featured-content .entry-title a", "type": "color", "label": "Title", "important": true },
+		{ "selector": ".featured-content .entry-title a:hover", "type": "color", "label": "Title", "important": true },
 		/* Link */
-		{ "selector": ".featured-content .entry-meta a", "type": "color", "label": "Featured Meta" },
-		{ "selector": ".featured-content .entry-meta a:hover", "type": "color", "label": "Featured Meta", "important": true },
-		/* Slider Content */
-		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Slider Paging" },
-		{ "selector": ".slider-control-paging a:before", "type": "background-color", "label": "Slider Paging a:before" },
-		{ "selector": ".slider-control-paging a:hover:before", "type": "background-color", "label": "Paging a:before Hover" },
-		{ "selector": ".slider-control-paging .slider-active:before,.slider-control-paging .slider-active:hover:before", "type": "background-color", "label": "Paging Active/Hover" },
-		{ "selector": ".slider-direction-nav a", "type": "background-color", "label": "Slider Direction" },
-		{ "selector": ".slider-direction-nav a:hover", "type": "background-color", "label": "Direction Hover" },
-		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction a:before" },
+		{ "selector": ".featured-content .entry-meta a", "type": "color", "label": "Meta" },
+		{ "selector": ".featured-content .entry-meta a:hover", "type": "color", "label": "Meta", "important": true },
+		/* Grid */
+		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid: Border", "important": true },
+		/* Slider */
+		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Slider: Paging" },
+		{ "selector": ".slider-control-paging .slider-active:before,.slider-control-paging .slider-active:hover:before", "type": "background-color", "label": "Paging Link" },
+		{ "selector": ".slider-control-paging a:before", "type": "background-color", "label": "Paging Before Link" },
+		{ "selector": ".slider-control-paging a:hover:before", "type": "background-color", "label": "Paging Before Link" },
+		{ "selector": ".slider-direction-nav a", "type": "background-color", "label": "Slider: Direction" },
+		{ "selector": ".slider-direction-nav a:hover", "type": "background-color", "label": "Direction Link" },
+		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction Before Link" },
 		{}
 	],
-	"Global Styles": [
+	"Global": [
 		/* Global */
 		{ "selector": "#page", "type": "background-color", "label": "Inner area" },
 		{ "selector": ".search-toggle,.search-box,.search-toggle.active", "type": "background-color", "label": "Header Search" },
@@ -35,7 +36,7 @@
 		{ "selector": "#page a:hover", "type": "color", "label": "Default link" },
 		{}
 	],
-	"Header Styles": [
+	"Header": [
 		/* Background */
 		{ "selector": "#page #masthead", "type": "background-color", "label": "Header", "template": "$selector {background: $value url(); }" },
 		/* Title */
@@ -44,7 +45,7 @@
 		{ "selector": "#page .site-title a:hover", "type": "color", "label": "Title", "important": true },
 		{}
 	],
-	"Menu Styles – Primary": [
+	"Menu – Primary": [
 		/* Top items */
 		{ "selector": "#masthead .primary-navigation li a,#masthead .primary-navigation li > a", "type": "text", "label": "Top item" },
 		{ "selector": "#masthead .primary-navigation li a,#masthead .primary-navigation li > a", "type": "color", "label": "Top item" },
@@ -63,7 +64,7 @@
 		/* Sub item border -- Specific to the this theme */
 		{}
 	],
-	"Menu Styles – Secondary": [
+	"Menu – Secondary": [
 		/* Tagline */
 		{ "selector": ".site-description", "type": "text", "label": "Tagline" },
 		{ "selector": ".site-description", "type": "color", "label": "Tagline", "important": true },
@@ -81,7 +82,54 @@
 		/* Sub item border -- Specific to the this theme */
 		{}
 	],
-	"Entry Styles – Headings": [
+	"Widgets — Primary": [
+		/* Background */		
+		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Area" },
+		/* Title */
+		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
+	"Widgets — Content": [
+		{ "selector": ".content-sidebar .widget .widget-title", "type": "border-top-color", "label": "Top Border" },
+		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
+		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
+		/* Title */
+		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
+	"Widgets — Footer": [
+		/* Title */
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Title" },
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Title" },
+		/* Content */
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Content" },
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Content" },
+		/* Link */
+		{ "selector": ".footer-sidebar .widget a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".footer-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
+		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
+		{}
+	],
+	"Entry – Headings": [
 		/* Title */
 		{ "selector": ".entry-title, #page .entry-title a", "type": "text", "label": "Title" },
 		{ "selector": ".entry-title, #page .entry-title a", "type": "color", "label": "Title" },
@@ -105,7 +153,7 @@
 		{ "selector": ".archive-title", "type": "color", "label": "Archive title" },
 		{}
 	],
-	"Entry Styles – Content": [
+	"Entry – Content": [
 		/* Paragraph */
 		{ "selector": ".site-content p, #page .site-content p a, #respond p", "type": "text", "label": "Paragraph" },
 		{ "selector": ".site-content p, #respond p", "type": "color", "label": "Paragraph" },
@@ -154,7 +202,7 @@
 		{ "selector": ".post-password-required input[type='submit']", "type": "border-color", "label": "Password submit" },
 		{}
 	],
-	"Entry Styles – Navigation": [
+	"Entry – Navigation": [
 		/* Post Previous/next */
 		{ "selector": ".post-navigation", "type": "background-color", "label": "Previous/next" },
 		{ "selector": "#page .post-navigation a", "type": "text", "label": "Previous/next link" },
@@ -176,14 +224,14 @@
 		{ "selector": "#page .page-links a", "type": "border-color", "label": "Paging link" },
 		{}
 	],
-	"Entry Styles – Meta": [
+	"Entry – Meta": [
 		/* Meta */
 		{ "selector": ".entry-meta, #page .entry-meta a", "type": "text", "label": "Meta" },
 		{ "selector": ".entry-meta", "type": "color", "label": "Meta" },
 		{ "selector": "#page .entry-meta a", "type": "color", "label": "Meta link" },
 		{ "selector": "#page .entry-meta a:hover", "type": "color", "label": "Meta link" },
-		{ "selector": ".entry-meta .tag-links a", "type": "background-color", "label": "Meta Tag Link BG" },
-		{ "selector": ".entry-meta .tag-links a:hover", "type": "background-color", "label": "Meta Tag Link BG" },
+		{ "selector": ".entry-meta .tag-links a", "type": "background-color", "label": "Meta Tag Link" },
+		{ "selector": ".entry-meta .tag-links a:hover", "type": "background-color", "label": "Meta Tag Link" },
 		{ "selector": ".entry-meta .tag-links a:before", "type": "border-right-color", "label": "Border Right" },
 		{ "selector": ".entry-meta .tag-links a:hover:before", "type": "border-right-color", "label": "Border Right" },
 		/* Edit link - Affects Entry, Comment */
@@ -192,7 +240,7 @@
 		{ "selector": "#page .edit-link a:hover", "type": "color", "label": "Edit link" },
 		{}
 	],
-	"Comment Styles – Content": [
+	"Comment – Content": [
 		{ "selector": ".comments-area", "type": "background-color", "label": "Area" },
 		/* Comment content    - This may need to change to effect comment meta as well */
 		{ "selector": ".comment-content, .comment-content p, #page .comment-content a", "type": "text", "label": "Content" },
@@ -207,7 +255,7 @@
 		{ "selector": ".comment-content pre, .comment-content code", "type": "background-color", "label": "Preformatted, code" },
 		{}
 	],
-	"Comments Styles – Author": [
+	"Comment – Author": [
 		/* Author */
 		{ "selector": "#comments .comment-author, #comments .comment-meta cite a", "type": "text", "label": "Author" },
 		{ "selector": "#comments .comment-author", "type": "color", "label": "Author" },
@@ -215,7 +263,7 @@
 		{ "selector": "#comments .comment-author a:hover", "type": "color", "label": "Author name link" },
 		{}
 	],
-	"Comments Styles – Meta": [
+	"Comment – Meta": [
 		/* List title */
 		{ "selector": ".comments-title", "type": "text", "label": "List title" },
 		{ "selector": ".comments-title", "type": "color", "label": "List title" },
@@ -229,16 +277,16 @@
 		{ "selector": "#comments a.comment-reply-link:hover", "type": "color", "label": "Reply link" },
 		{}
 	],
-	"Comments Styles – Pingback": [
+	"Comment – Pingback": [
 		/* Pingbacks */
-		{ "selector": ".comment-list .pingback", "type": "background-color", "label": "Pingback BG" },
+		{ "selector": ".comment-list .pingback", "type": "background-color", "label": "Area" },
 		{ "selector": "#page #comments .pingback, #page #comments .pingback a, #page #comments .trackback, #page #comments .trackback a", "type": "text", "label": "Pingback" },
 		{ "selector": "#page #comments .pingback, #page #comments .trackback", "type": "color", "label": "Pingback" },
 		{ "selector": "#page #comments .pingback a, #page #comments .trackback a", "type": "color", "label": "Pingback link" },
 		{ "selector": "#page #comments .pingback a:hover, #page #comments .trackback a:hover", "type": "color", "label": "Pingback link" },
 		{}
 	],
-	"Comments Styles – Response Form": [
+	"Comment – Response Form": [
 		/* Title */
 		{ "selector": "#respond h3#reply-title", "type": "text", "label": "Title" },
 		{ "selector": "#respond h3#reply-title, #respond h3#reply-title a", "type": "color", "label": "Title" },
@@ -266,54 +314,7 @@
 		{ "selector": "#respond input#submit", "type": "background-color", "label": "Submit button" },
 		{}
 	],
-	"Primary Sidebar Styles": [
-		/* Background */		
-		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Left Sidebar" },
-		/* Title */
-		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Widget Title" },
-		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Widget Title" },
-		/* Content */
-		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Widget Content" },
-		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Widget Content" },
-		/* Link */
-		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
-		{}
-	],
-	"Content Sidebar Styles": [
-		{ "selector": ".content-sidebar .widget .widget-title", "type": "border-top-color", "label": "Top Border" },
-		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
-		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
-		/* Title */
-		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Widget Title" },
-		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Widget Title" },
-		/* Content */
-		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Widget Content" },
-		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Widget Content" },
-		/* Link */
-		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
-		{}
-	],
-	"Footer Widgets Styles": [
-		/* Title */
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Widget Title" },
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Widget Title" },
-		/* Content */
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Widget Content" },
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Widegt Content" },
-		/* Link */
-		{ "selector": ".footer-sidebar .widget a", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".footer-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
-		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
-		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
-		{}
-	],
-	"Footer Styles": [
+	"Footer": [
 		/* Area */
 		{ "selector": ".site-footer", "type": "background-color", "label": "Footer Area" },
 		/* Credit */

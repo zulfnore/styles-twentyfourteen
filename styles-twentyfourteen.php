@@ -3,7 +3,7 @@
 Plugin Name:  Styles: TwentyFourteen
 Plugin URI:   http://wpdefault.com/styles-twentyfourteen-plugin/
 Description:  Adds fonts and colors Customize options to the <a href="http://wordpress.org/themes/twentyfourteen" target="_blank">Twenty Fourteen default theme</a> using the <a href="http://wordpress.org/plugins/styles/" target="_blank">Styles plugin</a>.
-Version:      1.0.2
+Version:      1.0.3
 Author:       Zulfikar Nore
 Author URI:   http://www.wpstrapcode.com
 
@@ -13,7 +13,7 @@ Styles Class: Styles_Child_Theme
 
 /**
  * Original plugin is Styles: TwentyThirteen
- * Copyright (c) 2013 Brainstorm Media. All rights reserved.
+ * Copyright (c) 2013 Paul Clark. All rights reserved.
  *
  * Styles: TwentyFourteen in the derivative format Copyright (c) 2013 WP Strap Code/ZGani AKA Zulfikar Nore
  *
@@ -39,3 +39,17 @@ Styles Class: Styles_Child_Theme
 if ( !class_exists( 'Styles_Child_Notices' ) ) {
     include dirname( __FILE__ ) . '/classes/styles-child-notices/styles-child-notices.php';
 }
+
+/**
+ * Cause the "Featured Content" group in customize.json to append to TwentyFourteen's default group
+ *
+ * @param string $id Sanatized group ID
+ * @param  string $group Original group name
+ */
+function st2014_add_to_featured_content_group( $id, $group ) {
+	if ( 'Featured Content' == $group ) {
+		$id = 'featured_content';
+	}
+	return $id;
+}
+add_filter( 'styles_get_group_id', 'st2014_add_to_featured_content_group', 10, 2 );
