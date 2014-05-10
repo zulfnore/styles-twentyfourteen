@@ -57,6 +57,7 @@ This is an add-on plugin for Styles that adds support for this theme. Make sure 
 == Changelog ==
 
 = 1.0.3 =
+* Warning: Changes to some setting names will cause values to be lost.
 * Fix: Rename settings and groups to be consistent with other Styles TwentyXX plugins.
 * New: Move Featured Content settings to 2014 Featured Content group.
 
@@ -73,5 +74,6 @@ This is an add-on plugin for Styles that adds support for this theme. Make sure 
 == Upgrade Notice ==
 
 = 1.0.3 =
+* Warning: Changes to some setting names will cause values to be lost.
 * Fix: Rename settings and groups to be consistent with other Styles TwentyXX plugins.
 * New: Move Featured Content settings to 2014 Featured Content group.
