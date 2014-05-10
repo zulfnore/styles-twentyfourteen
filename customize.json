@@ -1,5 +1,5 @@
 {
-	"Featured Content Styles": [
+	"Featured Content": [
 		/* Background */
 		{ "selector": ".featured-content", "type": "background-color", "label": "Featured BG" },
 		{ "selector": ".featured-content .entry-header", "type": "background-color", "label": "Entry Header" },
@@ -21,7 +21,7 @@
 		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction a:before" },
 		{}
 	],
-	"Global Styles": [
+	"Global": [
 		/* Global */
 		{ "selector": "#page", "type": "background-color", "label": "Inner area" },
 		{ "selector": ".search-toggle,.search-box,.search-toggle.active", "type": "background-color", "label": "Header Search" },
@@ -35,7 +35,7 @@
 		{ "selector": "#page a:hover", "type": "color", "label": "Default link" },
 		{}
 	],
-	"Header Styles": [
+	"Header": [
 		/* Background */
 		{ "selector": "#page #masthead", "type": "background-color", "label": "Header", "template": "$selector {background: $value url(); }" },
 		/* Title */
@@ -44,7 +44,7 @@
 		{ "selector": "#page .site-title a:hover", "type": "color", "label": "Title", "important": true },
 		{}
 	],
-	"Menu Styles – Primary": [
+	"Menu – Primary": [
 		/* Top items */
 		{ "selector": "#masthead .primary-navigation li a,#masthead .primary-navigation li > a", "type": "text", "label": "Top item" },
 		{ "selector": "#masthead .primary-navigation li a,#masthead .primary-navigation li > a", "type": "color", "label": "Top item" },
@@ -63,7 +63,7 @@
 		/* Sub item border -- Specific to the this theme */
 		{}
 	],
-	"Menu Styles – Secondary": [
+	"Menu – Secondary": [
 		/* Tagline */
 		{ "selector": ".site-description", "type": "text", "label": "Tagline" },
 		{ "selector": ".site-description", "type": "color", "label": "Tagline", "important": true },
@@ -81,7 +81,7 @@
 		/* Sub item border -- Specific to the this theme */
 		{}
 	],
-	"Entry Styles – Headings": [
+	"Entry – Headings": [
 		/* Title */
 		{ "selector": ".entry-title, #page .entry-title a", "type": "text", "label": "Title" },
 		{ "selector": ".entry-title, #page .entry-title a", "type": "color", "label": "Title" },
@@ -105,7 +105,7 @@
 		{ "selector": ".archive-title", "type": "color", "label": "Archive title" },
 		{}
 	],
-	"Entry Styles – Content": [
+	"Entry – Content": [
 		/* Paragraph */
 		{ "selector": ".site-content p, #page .site-content p a, #respond p", "type": "text", "label": "Paragraph" },
 		{ "selector": ".site-content p, #respond p", "type": "color", "label": "Paragraph" },
@@ -154,7 +154,7 @@
 		{ "selector": ".post-password-required input[type='submit']", "type": "border-color", "label": "Password submit" },
 		{}
 	],
-	"Entry Styles – Navigation": [
+	"Entry – Navigation": [
 		/* Post Previous/next */
 		{ "selector": ".post-navigation", "type": "background-color", "label": "Previous/next" },
 		{ "selector": "#page .post-navigation a", "type": "text", "label": "Previous/next link" },
@@ -176,7 +176,7 @@
 		{ "selector": "#page .page-links a", "type": "border-color", "label": "Paging link" },
 		{}
 	],
-	"Entry Styles – Meta": [
+	"Entry – Meta": [
 		/* Meta */
 		{ "selector": ".entry-meta, #page .entry-meta a", "type": "text", "label": "Meta" },
 		{ "selector": ".entry-meta", "type": "color", "label": "Meta" },
@@ -192,7 +192,7 @@
 		{ "selector": "#page .edit-link a:hover", "type": "color", "label": "Edit link" },
 		{}
 	],
-	"Comment Styles – Content": [
+	"Comment – Content": [
 		{ "selector": ".comments-area", "type": "background-color", "label": "Area" },
 		/* Comment content    - This may need to change to effect comment meta as well */
 		{ "selector": ".comment-content, .comment-content p, #page .comment-content a", "type": "text", "label": "Content" },
@@ -207,7 +207,7 @@
 		{ "selector": ".comment-content pre, .comment-content code", "type": "background-color", "label": "Preformatted, code" },
 		{}
 	],
-	"Comments Styles – Author": [
+	"Comment – Author": [
 		/* Author */
 		{ "selector": "#comments .comment-author, #comments .comment-meta cite a", "type": "text", "label": "Author" },
 		{ "selector": "#comments .comment-author", "type": "color", "label": "Author" },
@@ -215,7 +215,7 @@
 		{ "selector": "#comments .comment-author a:hover", "type": "color", "label": "Author name link" },
 		{}
 	],
-	"Comments Styles – Meta": [
+	"Comment – Meta": [
 		/* List title */
 		{ "selector": ".comments-title", "type": "text", "label": "List title" },
 		{ "selector": ".comments-title", "type": "color", "label": "List title" },
@@ -229,7 +229,7 @@
 		{ "selector": "#comments a.comment-reply-link:hover", "type": "color", "label": "Reply link" },
 		{}
 	],
-	"Comments Styles – Pingback": [
+	"Comment – Pingback": [
 		/* Pingbacks */
 		{ "selector": ".comment-list .pingback", "type": "background-color", "label": "Pingback BG" },
 		{ "selector": "#page #comments .pingback, #page #comments .pingback a, #page #comments .trackback, #page #comments .trackback a", "type": "text", "label": "Pingback" },
@@ -238,7 +238,7 @@
 		{ "selector": "#page #comments .pingback a:hover, #page #comments .trackback a:hover", "type": "color", "label": "Pingback link" },
 		{}
 	],
-	"Comments Styles – Response Form": [
+	"Comment – Response Form": [
 		/* Title */
 		{ "selector": "#respond h3#reply-title", "type": "text", "label": "Title" },
 		{ "selector": "#respond h3#reply-title, #respond h3#reply-title a", "type": "color", "label": "Title" },
@@ -266,7 +266,7 @@
 		{ "selector": "#respond input#submit", "type": "background-color", "label": "Submit button" },
 		{}
 	],
-	"Primary Sidebar Styles": [
+	"Widgets — Primary": [
 		/* Background */		
 		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Left Sidebar" },
 		/* Title */
@@ -282,7 +282,7 @@
 		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
 	],
-	"Content Sidebar Styles": [
+	"Widgets — Content": [
 		{ "selector": ".content-sidebar .widget .widget-title", "type": "border-top-color", "label": "Top Border" },
 		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
 		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
@@ -299,7 +299,7 @@
 		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
 	],
-	"Footer Widgets Styles": [
+	"Widgets — Footer": [
 		/* Title */
 		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Widget Title" },
 		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Widget Title" },
@@ -313,7 +313,7 @@
 		{ "selector": ".footer-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
 	],
-	"Footer Styles": [
+	"Footer": [
 		/* Area */
 		{ "selector": ".site-footer", "type": "background-color", "label": "Footer Area" },
 		/* Credit */
