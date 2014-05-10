@@ -1,24 +1,25 @@
 {
 	"Featured Content": [
 		/* Background */
-		{ "selector": ".featured-content", "type": "background-color", "label": "Featured BG" },
+		{ "selector": ".featured-content", "type": "background-color", "label": "Area" },
 		{ "selector": ".featured-content .entry-header", "type": "background-color", "label": "Entry Header" },
-		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid Border", "important": true },
 		/* Featured Content */
-		{ "selector": ".featured-content .entry-title", "type": "text", "label": "Featured Title", "important": true },
-		{ "selector": ".featured-content .entry-title a", "type": "color", "label": "Featured Title", "important": true },
-		{ "selector": ".featured-content .entry-title a:hover", "type": "color", "label": "Featured Title", "important": true },
+		{ "selector": ".featured-content .entry-title", "type": "text", "label": "Title", "important": true },
+		{ "selector": ".featured-content .entry-title a", "type": "color", "label": "Title", "important": true },
+		{ "selector": ".featured-content .entry-title a:hover", "type": "color", "label": "Title", "important": true },
 		/* Link */
-		{ "selector": ".featured-content .entry-meta a", "type": "color", "label": "Featured Meta" },
-		{ "selector": ".featured-content .entry-meta a:hover", "type": "color", "label": "Featured Meta", "important": true },
-		/* Slider Content */
-		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Slider Paging" },
-		{ "selector": ".slider-control-paging a:before", "type": "background-color", "label": "Slider Paging a:before" },
-		{ "selector": ".slider-control-paging a:hover:before", "type": "background-color", "label": "Paging a:before Hover" },
-		{ "selector": ".slider-control-paging .slider-active:before,.slider-control-paging .slider-active:hover:before", "type": "background-color", "label": "Paging Active/Hover" },
+		{ "selector": ".featured-content .entry-meta a", "type": "color", "label": "Meta" },
+		{ "selector": ".featured-content .entry-meta a:hover", "type": "color", "label": "Meta", "important": true },
+		/* Grid */
+		{ "selector": ".grid .featured-content .entry-header,.featured-content .entry-header", "type": "border-color", "label": "Grid — Border", "important": true },
+		/* Slider */
+		{ "selector": ".slider-control-paging", "type": "background-color", "label": "Paging" },
+		{ "selector": ".slider-control-paging .slider-active:before,.slider-control-paging .slider-active:hover:before", "type": "background-color", "label": "Paging Link" },
+		{ "selector": ".slider-control-paging a:before", "type": "background-color", "label": "Paging Before Link" },
+		{ "selector": ".slider-control-paging a:hover:before", "type": "background-color", "label": "Paging Before Link" },
 		{ "selector": ".slider-direction-nav a", "type": "background-color", "label": "Slider Direction" },
-		{ "selector": ".slider-direction-nav a:hover", "type": "background-color", "label": "Direction Hover" },
-		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction a:before" },
+		{ "selector": ".slider-direction-nav a:hover", "type": "background-color", "label": "Direction Link" },
+		{ "selector": ".slider-direction-nav a:before", "type": "color", "label": "Direction Before Link" },
 		{}
 	],
 	"Global": [
@@ -182,8 +183,8 @@
 		{ "selector": ".entry-meta", "type": "color", "label": "Meta" },
 		{ "selector": "#page .entry-meta a", "type": "color", "label": "Meta link" },
 		{ "selector": "#page .entry-meta a:hover", "type": "color", "label": "Meta link" },
-		{ "selector": ".entry-meta .tag-links a", "type": "background-color", "label": "Meta Tag Link BG" },
-		{ "selector": ".entry-meta .tag-links a:hover", "type": "background-color", "label": "Meta Tag Link BG" },
+		{ "selector": ".entry-meta .tag-links a", "type": "background-color", "label": "Meta Tag Link" },
+		{ "selector": ".entry-meta .tag-links a:hover", "type": "background-color", "label": "Meta Tag Link" },
 		{ "selector": ".entry-meta .tag-links a:before", "type": "border-right-color", "label": "Border Right" },
 		{ "selector": ".entry-meta .tag-links a:hover:before", "type": "border-right-color", "label": "Border Right" },
 		/* Edit link - Affects Entry, Comment */
@@ -231,7 +232,7 @@
 	],
 	"Comment – Pingback": [
 		/* Pingbacks */
-		{ "selector": ".comment-list .pingback", "type": "background-color", "label": "Pingback BG" },
+		{ "selector": ".comment-list .pingback", "type": "background-color", "label": "Area" },
 		{ "selector": "#page #comments .pingback, #page #comments .pingback a, #page #comments .trackback, #page #comments .trackback a", "type": "text", "label": "Pingback" },
 		{ "selector": "#page #comments .pingback, #page #comments .trackback", "type": "color", "label": "Pingback" },
 		{ "selector": "#page #comments .pingback a, #page #comments .trackback a", "type": "color", "label": "Pingback link" },
@@ -268,16 +269,16 @@
 	],
 	"Widgets — Primary": [
 		/* Background */		
-		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Left Sidebar" },
+		{ "selector": ".site:before,#secondary", "type": "background-color", "label": "Area" },
 		/* Title */
-		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Widget Title" },
-		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Widget Title" },
+		{ "selector": ".primary-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".primary-sidebar .widget-title", "type": "color", "label": "Title" },
 		/* Content */
-		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Widget Content" },
-		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Widget Content" },
+		{ "selector": ".primary-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".primary-sidebar .widget", "type": "color", "label": "Content" },
 		/* Link */
-		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Widget Link", "important": true },
+		{ "selector": ".primary-sidebar .widget a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".primary-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
 		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
 		{ "selector": ".primary-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
@@ -287,25 +288,25 @@
 		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "background-color", "label": "Ephemera Title Before" },
 		{ "selector": ".content-sidebar .widget_twentyfourteen_ephemera .widget-title:before", "type": "color", "label": "Ephemera Title Before" },
 		/* Title */
-		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Widget Title" },
-		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Widget Title" },
+		{ "selector": ".content-sidebar .widget-title", "type": "text", "label": "Title" },
+		{ "selector": ".content-sidebar .widget-title", "type": "color", "label": "Title" },
 		/* Content */
-		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Widget Content" },
-		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Widget Content" },
+		{ "selector": ".content-sidebar .widget", "type": "text", "label": "Content" },
+		{ "selector": ".content-sidebar .widget, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta", "type": "color", "label": "Content" },
 		/* Link */
-		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Widget Link", "important": true },
-		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Widget Link", "important": true },
+		{ "selector": ".content-sidebar .widget a, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a", "type": "color", "label": "Link", "important": true },
+		{ "selector": ".content-sidebar .widget a:hover, .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover", "type": "color", "label": "Link", "important": true },
 		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "background-color", "label": "Calendar Days" },
 		{ "selector": ".content-sidebar #wp-calendar thead th", "type": "color", "label": "Calendar Days" },
 		{}
 	],
 	"Widgets — Footer": [
 		/* Title */
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Widget Title" },
-		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Widget Title" },
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "text", "label": "Title" },
+		{ "selector": ".footer-sidebar .widget-title, .widget_calendar caption", "type": "color", "label": "Title" },
 		/* Content */
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Widget Content" },
-		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Widegt Content" },
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li, footer-sidebar .widget a", "type": "text", "label": "Content" },
+		{ "selector": ".footer-sidebar .widget, footer-sidebar .widget ul li", "type": "color", "label": "Content" },
 		/* Link */
 		{ "selector": ".footer-sidebar .widget a", "type": "color", "label": "Link", "important": true },
 		{ "selector": ".footer-sidebar .widget a:hover", "type": "color", "label": "Link", "important": true },
